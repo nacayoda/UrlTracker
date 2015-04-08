@@ -28,5 +28,5 @@
             $urlTrackerIframe.height(parseInt($heightElement.height()) - heightToSubtract);
         }
     </script>
-    <iframe scrolling="auto" frameborder="0" marginheight="0" marginwidth="0" id="urlTrackerIframe" seamless="seamless" name="urltracker" src="<%= UrlTrackerResources.UrlTrackerManagerUrl %>" style="width: 100%;"></iframe>
+    <iframe scrolling="auto" frameborder="0" marginheight="0" marginwidth="0" id="urlTrackerIframe" seamless="seamless" name="urltracker" src="<%= UrlTrackerResources.UrlTrackerManagerUrl %>" style="width: 95%; height:1100px;"></iframe>
 </div>
